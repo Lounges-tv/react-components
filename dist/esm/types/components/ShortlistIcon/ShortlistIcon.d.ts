@@ -1,4 +1,3 @@
 import React from "react";
-export default function ShortlistIcon({ className }: {
-    className?: string;
-}): React.JSX.Element;
+import { IconProps } from "../../types";
+export default function ShortlistIcon({ className, fill, stroke }: IconProps): React.JSX.Element;

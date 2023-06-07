@@ -1,7 +1,11 @@
 import React from 'react';
 
-declare function ShortlistIcon({ className }: {
+interface IconProps {
     className?: string;
-}): React.JSX.Element;
+    fill?: string;
+    stroke?: string;
+}
+
+declare function ShortlistIcon({ className, fill, stroke }: IconProps): React.JSX.Element;
 
 export { ShortlistIcon };

@@ -1,2 +1,2 @@
-import t from"react";function e({className:e}){return t.createElement("svg",{className:e,viewBox:"0 0 24 24",xmlns:"http://www.w3.org/2000/svg","data-testid":"ShortlistIcon"},t.createElement("path",{d:"M5 3H19C20.6569 3 22 4.34315 22 6V20.25L12 17L2 20.25V6C2 4.34315 3.34315 3 5 3Z",stroke:"black","stroke-width":"2",fill:"evenodd"}))}export{e as ShortlistIcon};
+import e from"react";function t({className:t,fill:r,stroke:l}){return e.createElement("svg",{className:t,fill:"none",xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 12 16"},e.createElement("path",{d:"M5.4 10.2 1 14V2c0-.6.4-1 1-1h8c.6 0 1 .4 1 1v11.9l-4.4-3.7-.6-.5-.6.5Z",fill:r||"transparent",stroke:l||"#fff","stroke-width":"2"}))}export{t as ShortlistIcon};
 //# sourceMappingURL=index.js.map

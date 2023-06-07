@@ -1,12 +1,15 @@
 import React from "react";
+import { IconProps } from "../../types";
 
-export default function ShortlistIcon({ className }: { className?: string }) {
-    return (
-      <svg className={className} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-testid="ShortlistIcon">
-        <path
-          d="M5 3H19C20.6569 3 22 4.34315 22 6V20.25L12 17L2 20.25V6C2 4.34315 3.34315 3 5 3Z" stroke="black" stroke-width="2"
-          fill="evenodd"
-        />
-      </svg>
-    );
+export default function ShortlistIcon({ className, fill, stroke }: IconProps) {
+  return (
+    <svg className={className} fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 16">
+      <path
+        d="M5.4 10.2 1 14V2c0-.6.4-1 1-1h8c.6 0 1 .4 1 1v11.9l-4.4-3.7-.6-.5-.6.5Z"
+        fill={fill || 'transparent'}
+        stroke={stroke || "#fff"}
+        stroke-width="2"
+      />
+    </svg>
+  );
 }
