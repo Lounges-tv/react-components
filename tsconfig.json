@@ -3,7 +3,7 @@
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     // Default
-    "target": "ESNext", 
+    "target": "es5", 
     "esModuleInterop": true, 
     "forceConsistentCasingInFileNames": true,
     "strict": true, 
