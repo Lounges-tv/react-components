@@ -9,4 +9,6 @@ interface IconProps {
 
 declare function ShortlistIcon({ className, fill, stroke, onClick }: IconProps): React.JSX.Element;
 
-export { ShortlistIcon };
+declare function ChainlinkIcon({ className, fill, onClick }: IconProps): React.JSX.Element;
+
+export { ChainlinkIcon, ShortlistIcon };
