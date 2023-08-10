@@ -11,4 +11,6 @@ declare function ShortlistIcon({ className, fill, stroke, onClick }: IconProps):
 
 declare function ChainlinkIcon({ className, fill, onClick }: IconProps): React.JSX.Element;
 
-export { ChainlinkIcon, ShortlistIcon };
+declare function PurchaseIcon({ className, fill, onClick }: IconProps): React.JSX.Element;
+
+export { ChainlinkIcon, PurchaseIcon, ShortlistIcon };
